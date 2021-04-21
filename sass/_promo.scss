@@ -1,0 +1,54 @@
+.promo {
+    height: 650px;
+    background: url('../img/pulse_promo_bg.jpg') center (center / cover) no-repeat;
+    padding: 21px 0 93px 0;
+    &__right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__items {
+        width: 424px;
+        height: 96px;
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        span {
+            display: block;
+            font-weight: 500;
+            font-size: 14px;
+            color: #FFFFFF;
+        }
+    }
+    &__link {
+        margin-top: 8px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+        a {
+            color: #FFFFFF;
+        }
+    }
+}
+.title {
+    margin-top: 91px;
+    font-weight: 900;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    &_black {
+        margin-top: 0;
+        font-size: 30px;
+        color: #0D0D0D;
+        text-align: center;
+    }
+}
+
+.subtitle {
+    margin-top: 17px;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
