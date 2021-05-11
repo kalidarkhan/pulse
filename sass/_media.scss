@@ -95,6 +95,12 @@
             }
         }
     }
+
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
+    }
 }
 
 @media (max-width: 575px) {
