@@ -170,4 +170,10 @@
         margin-top: 10px;
         padding: 0 10px;
     }
+
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
+    }
 }
