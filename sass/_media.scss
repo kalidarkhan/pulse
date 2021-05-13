@@ -181,5 +181,36 @@
         &__content {
             justify-content: center;
         }
+        &__tabs {
+            li {
+                line-height: 24px;
+            }
+        }
+        &__tab {
+            margin: 0 5px;
+            font-size: 14px;
+            br {
+                display: block;
+            }
+        }
+    }
+
+    .reviews {
+        &__items {
+            flex-direction: column;
+            align-items: center;
+            &-wrapper {
+                text-align: center;
+            }
+        }
+        &__avatar {
+            margin-right: 0;
+        }
+    }
+
+    .footer {
+        &__info {
+            width: 100%;
+        }
     }
 }
