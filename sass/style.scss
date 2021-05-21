@@ -5,6 +5,7 @@
     width: 942px;
     margin: 0 auto;
 }
+@import 'variables';
 @import "promo";
 @import "header";
 @import "buttons";
@@ -15,4 +16,5 @@
 @import 'catalog';
 @import 'footer';
 @import 'reviews';
+@import 'modal';
 @import "media";
