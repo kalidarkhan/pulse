@@ -175,6 +175,9 @@
         margin: 0 auto;
         margin-top: 10px;
         padding: 0 10px;
+        &_modal {
+            width: 100%;
+        }
     }
 
     .catalog {
@@ -213,4 +216,24 @@
             width: 100%;
         }
     }
+
+    .modal {
+        width: 80%;
+        min-height: 370px;
+        padding: 10px;
+        &__close {
+            right: 3px;
+            top: -10px;
+            font-size: 25px;
+        }
+    }
+
+    .button {
+        &_submit {
+            width: 70%;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+    }
+
 }
