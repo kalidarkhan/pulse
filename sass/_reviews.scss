@@ -8,6 +8,11 @@
         margin-right: 61px;
         width: 169px;
         height: 169px;
+        &_animated {
+            &:hover {
+                animation: avatar 2s;
+            }
+        }
     }
     &__full-name {
         font-weight: 700;

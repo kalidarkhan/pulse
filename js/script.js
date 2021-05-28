@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
     $('.carousel__inner').slick({
         prevArrow: '<button type="button" class="slick-prev"><img src="../img/carousel/pulse_left_solid.png"></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="../img/carousel/pulse_right_solid.png"></button>',
@@ -81,4 +82,21 @@ $(document).ready(function(){
         });
         return false;
     });
+
+    // smooth scroll and pageup
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 1600) {
+            $('.pageup').fadeIn();
+        } else {
+            $('.pageup').fadeOut();
+        }
+    });
+
+    $("a[href=#up]").click(function(){
+        var _href = $(this).attr("href");
+        $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+        return false;
+    });
+
   });

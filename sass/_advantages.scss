@@ -1,6 +1,7 @@
 .advantages {
     min-height: 472px;
     padding: 70px 0;
+    background: #F6F6F6;
     &__items {
         display: flex;
         justify-content: space-between;
@@ -23,6 +24,15 @@
         }
         a {
             color: #FF0000;
+        }
+    }
+    &__icon {
+        animation-name: heartbeat;
+        animation-duration: 1.5s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        &:hover {
+            animation-play-state: paused;
         }
     }
 }
