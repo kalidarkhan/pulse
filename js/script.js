@@ -70,7 +70,7 @@ $(document).ready(function(){
     $('input[name=tel]').mask("+7 (999) 999-99-99");
 
     $('form').submit(function(e) {
-        e.preventDefault();
+        // e.preventDefault();
         $.ajax({
             type: "POST",
             url: "mailer/smart.php",
@@ -79,6 +79,7 @@ $(document).ready(function(){
             $(this).find("input").val("");
 
             $('form').trigger('reset');
+            console.log("test");
         });
         return false;
     });
